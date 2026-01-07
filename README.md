@@ -1,13 +1,10 @@
-# lro-git-page
-LRO - Library Reference Ontology Page
-
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://purl.org/LRO/lro.owl#"
-     xml:base="https://purl.org/LRO/lro.owl"
+<rdf:RDF xmlns="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#"
+     xml:base="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf"
      xmlns:bf="http://id.loc.gov/ontologies/bibframe/"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:ns="http://creativecommons.org/ns#"
-     xmlns:lro="https://purl.org/LRO/lro.owl#"
+     xmlns:lro="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -39,8 +36,8 @@ LRO - Library Reference Ontology Page
      xmlns:regap="http://metadataregistry.org/uri/profile/regap/"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/">
-    <owl:Ontology rdf:about="https://purl.org/LRO/lro.owl">
-        <owl:versionIRI rdf:resource="https://purl.org/LRO/lro"/>
+    <owl:Ontology rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf">
+        <owl:versionIRI rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro"/>
         <owl:imports rdf:resource="http://www.xpto.com/biblioteca1-01"/>
         <owl:imports rdf:resource="http://www.xpto.com/biblioteca2-01"/>
         <owl:imports rdf:resource="http://www.xpto.com/biblioteca3-01"/>
@@ -60861,7 +60858,7 @@ LRO - Library Reference Ontology Page
     <!-- http://id.loc.gov/ontologies/bibframe/references -->
 
     <owl:ObjectProperty rdf:about="http://id.loc.gov/ontologies/bibframe/references">
-        <owl:equivalentProperty rdf:resource="https://purl.org/LRO/lro.owl#assunto"/>
+        <owl:equivalentProperty rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#assunto"/>
         <rdfs:subPropertyOf rdf:resource="http://id.loc.gov/ontologies/bibframe/relatedTo"/>
         <terms:modified>2016-04-21 (New)</terms:modified>
         <terms:modified>2016-04-29 (added inverse)</terms:modified>
@@ -61377,7 +61374,7 @@ LRO - Library Reference Ontology Page
     <!-- http://iflastandards.info/ns/lrm/lrmer/R12 -->
 
     <owl:ObjectProperty rdf:about="http://iflastandards.info/ns/lrm/lrmer/R12">
-        <owl:equivalentProperty rdf:resource="https://purl.org/LRO/lro.owl#assunto"/>
+        <owl:equivalentProperty rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#assunto"/>
         <rdfs:subPropertyOf rdf:resource="http://iflastandards.info/ns/lrm/lrmer/R1"/>
         <owl:inverseOf rdf:resource="http://iflastandards.info/ns/lrm/lrmer/R12i"/>
         <rdfs:domain rdf:resource="http://iflastandards.info/ns/lrm/lrmer/E2"/>
@@ -70946,7 +70943,7 @@ LRO - Library Reference Ontology Page
     <!-- http://rdaregistry.info/Elements/e/object/P20141 -->
 
     <owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/e/object/P20141">
-        <owl:equivalentProperty rdf:resource="https://purl.org/LRO/lro.owl#tradLit"/>
+        <owl:equivalentProperty rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#tradLit"/>
         <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/e/object/P20574"/>
         <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/e/object/P20171"/>
         <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10006"/>
@@ -81060,7 +81057,7 @@ LRO - Library Reference Ontology Page
         <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/u/P60367"/>
         <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/u/P60925"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://purl.org/LRO/lro.owl#variantTitle"/>
+            <rdf:Description rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#variantTitle"/>
         </owl:propertyChainAxiom>
         <regap:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/u/variantTitleOfResource.en"/>
         <regap:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
@@ -81087,7 +81084,7 @@ LRO - Library Reference Ontology Page
         <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/u/P60367"/>
         <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/u/P60912"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://purl.org/LRO/lro.owl#abbreviatedTitle"/>
+            <rdf:Description rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#abbreviatedTitle"/>
         </owl:propertyChainAxiom>
         <regap:hasSubproperty rdf:resource="http://rdaregistry.info/Elements/u/P60355"/>
         <regap:hasSubproperty rdf:resource="http://rdaregistry.info/Elements/u/P60516"/>
@@ -81122,7 +81119,7 @@ LRO - Library Reference Ontology Page
         <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/u/P60369"/>
         <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/u/P60957"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://purl.org/LRO/lro.owl#title"/>
+            <rdf:Description rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#title"/>
         </owl:propertyChainAxiom>
         <regap:lexicalAlias rdf:resource="http://rdaregistry.info/Elements/u/titleProper.en"/>
         <regap:status rdf:resource="http://metadataregistry.org/uri/RegStatus/1001"/>
@@ -82295,7 +82292,7 @@ LRO - Library Reference Ontology Page
 
     <owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/w/object/P10126">
         <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/w/object/P10179"/>
-        <rdfs:subPropertyOf rdf:resource="https://purl.org/LRO/lro.owl#assunto"/>
+        <rdfs:subPropertyOf rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#assunto"/>
         <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10001"/>
     </owl:ObjectProperty>
     
@@ -82423,7 +82420,7 @@ LRO - Library Reference Ontology Page
 
     <owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/w/object/P10140">
         <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/w/object/P10100"/>
-        <rdfs:subPropertyOf rdf:resource="https://purl.org/LRO/lro.owl#assunto"/>
+        <rdfs:subPropertyOf rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#assunto"/>
         <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10001"/>
     </owl:ObjectProperty>
     
@@ -82451,7 +82448,7 @@ LRO - Library Reference Ontology Page
     <!-- http://rdaregistry.info/Elements/w/object/P10143 -->
 
     <owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/w/object/P10143">
-        <owl:equivalentProperty rdf:resource="https://purl.org/LRO/lro.owl#tradLiv"/>
+        <owl:equivalentProperty rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#tradLiv"/>
         <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/w/object/P10341"/>
         <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10001"/>
     </owl:ObjectProperty>
@@ -82501,7 +82498,7 @@ LRO - Library Reference Ontology Page
 
     <owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/w/object/P10148">
         <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/w/object/P10342"/>
-        <rdfs:subPropertyOf rdf:resource="https://purl.org/LRO/lro.owl#derivacao"/>
+        <rdfs:subPropertyOf rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#derivacao"/>
         <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/w/object/P10190"/>
         <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10001"/>
     </owl:ObjectProperty>
@@ -82567,7 +82564,7 @@ LRO - Library Reference Ontology Page
 
     <owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/w/object/P10155">
         <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/w/object/P10148"/>
-        <rdfs:subPropertyOf rdf:resource="https://purl.org/LRO/lro.owl#derivacao"/>
+        <rdfs:subPropertyOf rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#derivacao"/>
         <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10001"/>
     </owl:ObjectProperty>
     
@@ -83744,7 +83741,7 @@ LRO - Library Reference Ontology Page
 
     <owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/w/object/P10291">
         <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/w/object/P10198"/>
-        <rdfs:subPropertyOf rdf:resource="https://purl.org/LRO/lro.owl#derivacao"/>
+        <rdfs:subPropertyOf rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#derivacao"/>
         <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10001"/>
     </owl:ObjectProperty>
     
@@ -83772,7 +83769,7 @@ LRO - Library Reference Ontology Page
 
     <owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/w/object/P10294">
         <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/w/object/P10198"/>
-        <rdfs:subPropertyOf rdf:resource="https://purl.org/LRO/lro.owl#derivacao"/>
+        <rdfs:subPropertyOf rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#derivacao"/>
         <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/w/object/P10295"/>
         <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10001"/>
     </owl:ObjectProperty>
@@ -84025,7 +84022,7 @@ LRO - Library Reference Ontology Page
     <!-- http://rdaregistry.info/Elements/w/object/P10324 -->
 
     <owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/w/object/P10324">
-        <owl:equivalentProperty rdf:resource="https://purl.org/LRO/lro.owl#assunto"/>
+        <owl:equivalentProperty rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#assunto"/>
         <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/w/object/P10307"/>
         <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/x/object/P00014"/>
         <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10001"/>
@@ -84134,7 +84131,7 @@ LRO - Library Reference Ontology Page
 
     <owl:ObjectProperty rdf:about="http://rdaregistry.info/Elements/w/object/P10336">
         <rdfs:subPropertyOf rdf:resource="http://rdaregistry.info/Elements/w/object/P10198"/>
-        <rdfs:subPropertyOf rdf:resource="https://purl.org/LRO/lro.owl#derivacao"/>
+        <rdfs:subPropertyOf rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#derivacao"/>
         <owl:inverseOf rdf:resource="http://rdaregistry.info/Elements/w/object/P10337"/>
         <rdfs:domain rdf:resource="http://rdaregistry.info/Elements/c/C10001"/>
     </owl:ObjectProperty>
@@ -87171,133 +87168,133 @@ LRO - Library Reference Ontology Page
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#TesteAudiobook -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#TesteAudiobook -->
 
-    <owl:ObjectProperty rdf:about="https://purl.org/LRO/lro.owl#TesteAudiobook">
-        <rdfs:domain rdf:resource="https://purl.org/LRO/lro.owl#Audiolivro"/>
+    <owl:ObjectProperty rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#TesteAudiobook">
+        <rdfs:domain rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Audiolivro"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#abbreviatedTitle -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#abbreviatedTitle -->
 
-    <owl:ObjectProperty rdf:about="https://purl.org/LRO/lro.owl#abbreviatedTitle">
-        <rdfs:domain rdf:resource="https://purl.org/LRO/lro.owl#NomenTitle"/>
-        <rdfs:range rdf:resource="https://purl.org/LRO/lro.owl#NomenTitle"/>
+    <owl:ObjectProperty rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#abbreviatedTitle">
+        <rdfs:domain rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#NomenTitle"/>
+        <rdfs:range rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#NomenTitle"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#assunto -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#assunto -->
 
-    <owl:ObjectProperty rdf:about="https://purl.org/LRO/lro.owl#assunto">
-        <rdfs:domain rdf:resource="https://purl.org/LRO/lro.owl#Obra"/>
+    <owl:ObjectProperty rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#assunto">
+        <rdfs:domain rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Obra"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#derivacao -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#derivacao -->
 
-    <owl:ObjectProperty rdf:about="https://purl.org/LRO/lro.owl#derivacao">
-        <rdfs:domain rdf:resource="https://purl.org/LRO/lro.owl#Obra"/>
-        <rdfs:range rdf:resource="https://purl.org/LRO/lro.owl#Obra"/>
+    <owl:ObjectProperty rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#derivacao">
+        <rdfs:domain rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Obra"/>
+        <rdfs:range rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Obra"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#itemReproduzido -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#itemReproduzido -->
 
-    <owl:ObjectProperty rdf:about="https://purl.org/LRO/lro.owl#itemReproduzido">
-        <owl:inverseOf rdf:resource="https://purl.org/LRO/lro.owl#reproducaoDigital"/>
-        <rdfs:domain rdf:resource="https://purl.org/LRO/lro.owl#ReproducaoDigital"/>
-        <rdfs:range rdf:resource="https://purl.org/LRO/lro.owl#Item"/>
+    <owl:ObjectProperty rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#itemReproduzido">
+        <owl:inverseOf rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#reproducaoDigital"/>
+        <rdfs:domain rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#ReproducaoDigital"/>
+        <rdfs:range rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Item"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#manifestacaoAnalogica -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#manifestacaoAnalogica -->
 
-    <owl:ObjectProperty rdf:about="https://purl.org/LRO/lro.owl#manifestacaoAnalogica">
-        <rdfs:domain rdf:resource="https://purl.org/LRO/lro.owl#ReproducaoDigital"/>
-        <rdfs:range rdf:resource="https://purl.org/LRO/lro.owl#Manifestacao"/>
+    <owl:ObjectProperty rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#manifestacaoAnalogica">
+        <rdfs:domain rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#ReproducaoDigital"/>
+        <rdfs:range rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Manifestacao"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#manifestacaoDigital -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#manifestacaoDigital -->
 
-    <owl:ObjectProperty rdf:about="https://purl.org/LRO/lro.owl#manifestacaoDigital">
-        <rdfs:domain rdf:resource="https://purl.org/LRO/lro.owl#ReproducaoDigital"/>
-        <rdfs:range rdf:resource="https://purl.org/LRO/lro.owl#Manifestacao"/>
+    <owl:ObjectProperty rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#manifestacaoDigital">
+        <rdfs:domain rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#ReproducaoDigital"/>
+        <rdfs:range rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Manifestacao"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#parteDe -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#parteDe -->
 
-    <owl:ObjectProperty rdf:about="https://purl.org/LRO/lro.owl#parteDe">
+    <owl:ObjectProperty rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#parteDe">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <rdfs:domain rdf:resource="https://purl.org/LRO/lro.owl#Obra"/>
-        <rdfs:range rdf:resource="https://purl.org/LRO/lro.owl#Obra"/>
+        <rdfs:domain rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Obra"/>
+        <rdfs:range rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Obra"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#reproducaoDigital -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#reproducaoDigital -->
 
-    <owl:ObjectProperty rdf:about="https://purl.org/LRO/lro.owl#reproducaoDigital">
-        <rdfs:domain rdf:resource="https://purl.org/LRO/lro.owl#Item"/>
-        <rdfs:range rdf:resource="https://purl.org/LRO/lro.owl#ReproducaoDigital"/>
+    <owl:ObjectProperty rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#reproducaoDigital">
+        <rdfs:domain rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Item"/>
+        <rdfs:range rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#ReproducaoDigital"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#temSuperObra -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#temSuperObra -->
 
-    <owl:ObjectProperty rdf:about="https://purl.org/LRO/lro.owl#temSuperObra">
+    <owl:ObjectProperty rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#temSuperObra">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
-        <rdfs:domain rdf:resource="https://purl.org/LRO/lro.owl#Obra"/>
-        <rdfs:range rdf:resource="https://purl.org/LRO/lro.owl#SuperObra"/>
+        <rdfs:domain rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Obra"/>
+        <rdfs:range rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#SuperObra"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#temTítulo -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#temTítulo -->
 
-    <owl:ObjectProperty rdf:about="https://purl.org/LRO/lro.owl#temTítulo">
-        <rdfs:range rdf:resource="https://purl.org/LRO/lro.owl#NomenTitle"/>
+    <owl:ObjectProperty rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#temTítulo">
+        <rdfs:range rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#NomenTitle"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#title -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#title -->
 
-    <owl:ObjectProperty rdf:about="https://purl.org/LRO/lro.owl#title">
-        <rdfs:domain rdf:resource="https://purl.org/LRO/lro.owl#NomenTitle"/>
-        <rdfs:range rdf:resource="https://purl.org/LRO/lro.owl#NomenTitle"/>
+    <owl:ObjectProperty rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#title">
+        <rdfs:domain rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#NomenTitle"/>
+        <rdfs:range rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#NomenTitle"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#tradLit -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#tradLit -->
 
-    <owl:ObjectProperty rdf:about="https://purl.org/LRO/lro.owl#tradLit">
+    <owl:ObjectProperty rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#tradLit">
         <rdfs:subPropertyOf rdf:resource="http://id.loc.gov/ontologies/bibframe/translationOf"/>
         <rdfs:subPropertyOf rdf:resource="http://iflastandards.info/ns/lrm/lrmer/R24"/>
-        <rdfs:subPropertyOf rdf:resource="https://purl.org/LRO/lro.owl#derivacao"/>
-        <rdfs:domain rdf:resource="https://purl.org/LRO/lro.owl#Expressao"/>
-        <rdfs:range rdf:resource="https://purl.org/LRO/lro.owl#Expressao"/>
+        <rdfs:subPropertyOf rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#derivacao"/>
+        <rdfs:domain rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Expressao"/>
+        <rdfs:range rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Expressao"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#tradLiv -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#tradLiv -->
 
-    <owl:ObjectProperty rdf:about="https://purl.org/LRO/lro.owl#tradLiv">
+    <owl:ObjectProperty rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#tradLiv">
         <rdfs:subPropertyOf rdf:resource="http://id.loc.gov/ontologies/bibframe/translationOf"/>
-        <rdfs:subPropertyOf rdf:resource="https://purl.org/LRO/lro.owl#derivacao"/>
+        <rdfs:subPropertyOf rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#derivacao"/>
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
@@ -87307,79 +87304,79 @@ LRO - Library Reference Ontology Page
                 </owl:unionOf>
             </owl:Class>
         </rdfs:domain>
-        <rdfs:range rdf:resource="https://purl.org/LRO/lro.owl#Obra"/>
+        <rdfs:range rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Obra"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#variantTitle -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#variantTitle -->
 
-    <owl:ObjectProperty rdf:about="https://purl.org/LRO/lro.owl#variantTitle">
-        <rdfs:domain rdf:resource="https://purl.org/LRO/lro.owl#NomenTitle"/>
-        <rdfs:range rdf:resource="https://purl.org/LRO/lro.owl#NomenTitle"/>
+    <owl:ObjectProperty rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#variantTitle">
+        <rdfs:domain rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#NomenTitle"/>
+        <rdfs:range rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#NomenTitle"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#vc-Lingua-Inferido-Exp -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#vc-Lingua-Inferido-Exp -->
 
-    <owl:ObjectProperty rdf:about="https://purl.org/LRO/lro.owl#vc-Lingua-Inferido-Exp">
-        <rdfs:domain rdf:resource="https://purl.org/LRO/lro.owl#Manifestacao"/>
+    <owl:ObjectProperty rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#vc-Lingua-Inferido-Exp">
+        <rdfs:domain rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Manifestacao"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://purl.org/LRO/lro.owl#vinculadaPor"/>
+            <rdf:Description rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#vinculadaPor"/>
             <rdf:Description rdf:about="http://id.loc.gov/ontologies/bibframe/language"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#vc-Local-Data-Inferido-manif -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#vc-Local-Data-Inferido-manif -->
 
-    <owl:ObjectProperty rdf:about="https://purl.org/LRO/lro.owl#vc-Local-Data-Inferido-manif">
-        <rdfs:domain rdf:resource="https://purl.org/LRO/lro.owl#Item"/>
+    <owl:ObjectProperty rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#vc-Local-Data-Inferido-manif">
+        <rdfs:domain rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Item"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://purl.org/LRO/lro.owl#vinculadaPor"/>
+            <rdf:Description rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#vinculadaPor"/>
             <rdf:Description rdf:about="http://id.loc.gov/ontologies/bibframe/provisionActivity"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#vc-Titulo-Inferido-Obra -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#vc-Titulo-Inferido-Obra -->
 
-    <owl:ObjectProperty rdf:about="https://purl.org/LRO/lro.owl#vc-Titulo-Inferido-Obra">
-        <rdfs:domain rdf:resource="https://purl.org/LRO/lro.owl#Expressao"/>
+    <owl:ObjectProperty rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#vc-Titulo-Inferido-Obra">
+        <rdfs:domain rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Expressao"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://purl.org/LRO/lro.owl#vinculadaPor"/>
-            <rdf:Description rdf:about="https://purl.org/LRO/lro.owl#temTítulo"/>
+            <rdf:Description rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#vinculadaPor"/>
+            <rdf:Description rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#temTítulo"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#vc-Traducao-Inferido-Exp -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#vc-Traducao-Inferido-Exp -->
 
-    <owl:ObjectProperty rdf:about="https://purl.org/LRO/lro.owl#vc-Traducao-Inferido-Exp">
-        <rdfs:domain rdf:resource="https://purl.org/LRO/lro.owl#Manifestacao"/>
+    <owl:ObjectProperty rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#vc-Traducao-Inferido-Exp">
+        <rdfs:domain rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Manifestacao"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://purl.org/LRO/lro.owl#vinculadaPor"/>
+            <rdf:Description rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#vinculadaPor"/>
             <rdf:Description rdf:about="http://id.loc.gov/ontologies/bibframe/translationOf"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#vincula -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#vincula -->
 
-    <owl:ObjectProperty rdf:about="https://purl.org/LRO/lro.owl#vincula">
-        <owl:inverseOf rdf:resource="https://purl.org/LRO/lro.owl#vinculadaPor"/>
+    <owl:ObjectProperty rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#vincula">
+        <owl:inverseOf rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#vinculadaPor"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#vinculadaPor -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#vinculadaPor -->
 
-    <owl:ObjectProperty rdf:about="https://purl.org/LRO/lro.owl#vinculadaPor">
+    <owl:ObjectProperty rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#vinculadaPor">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="http://id.loc.gov/ontologies/bibframe/expressionOf"/>
@@ -88185,17 +88182,17 @@ LRO - Library Reference Ontology Page
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#dataDigitalizacao -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#dataDigitalizacao -->
 
-    <owl:DatatypeProperty rdf:about="https://purl.org/LRO/lro.owl#dataDigitalizacao">
-        <rdfs:domain rdf:resource="https://purl.org/LRO/lro.owl#ReproducaoDigital"/>
+    <owl:DatatypeProperty rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#dataDigitalizacao">
+        <rdfs:domain rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#ReproducaoDigital"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#entidadeDigitalizadora -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#entidadeDigitalizadora -->
 
-    <owl:DatatypeProperty rdf:about="https://purl.org/LRO/lro.owl#entidadeDigitalizadora"/>
+    <owl:DatatypeProperty rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#entidadeDigitalizadora"/>
     
 
 
@@ -88321,7 +88318,7 @@ LRO - Library Reference Ontology Page
 
     <owl:Class rdf:about="http://id.loc.gov/ontologies/bibframe/Audio">
         <rdfs:subClassOf rdf:resource="http://id.loc.gov/ontologies/bibframe/Work"/>
-        <rdfs:subClassOf rdf:resource="https://purl.org/LRO/lro.owl#Expressao"/>
+        <rdfs:subClassOf rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Expressao"/>
         <terms:modified>2016-04-21 (New)</terms:modified>
         <rdfs:label>Audio</rdfs:label>
         <skos:definition>Resources expressed in an audible form, including music or other sounds.</skos:definition>
@@ -88451,7 +88448,7 @@ LRO - Library Reference Ontology Page
 
     <owl:Class rdf:about="http://id.loc.gov/ontologies/bibframe/Cartography">
         <rdfs:subClassOf rdf:resource="http://id.loc.gov/ontologies/bibframe/Work"/>
-        <rdfs:subClassOf rdf:resource="https://purl.org/LRO/lro.owl#Expressao"/>
+        <rdfs:subClassOf rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Expressao"/>
         <terms:modified>2016-04-25 (fixed typo in definition)</terms:modified>
         <rdfs:label>Cartography</rdfs:label>
         <skos:definition>Resource that shows spatial information, including maps, atlases, globes, digital, and other cartographic resources.</skos:definition>
@@ -88986,7 +88983,7 @@ LRO - Library Reference Ontology Page
 
     <owl:Class rdf:about="http://id.loc.gov/ontologies/bibframe/Instance">
         <owl:equivalentClass rdf:resource="http://rdaregistry.info/Elements/c/C10007"/>
-        <rdfs:subClassOf rdf:resource="https://purl.org/LRO/lro.owl#Manifestacao"/>
+        <rdfs:subClassOf rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Manifestacao"/>
         <terms:modified>2016-04-21 (New)</terms:modified>
         <rdfs:label>Instance</rdfs:label>
         <skos:definition>Resource reflecting an individual, material embodiment of a Work.</skos:definition>
@@ -89127,7 +89124,7 @@ LRO - Library Reference Ontology Page
     <!-- http://id.loc.gov/ontologies/bibframe/Item -->
 
     <owl:Class rdf:about="http://id.loc.gov/ontologies/bibframe/Item">
-        <rdfs:subClassOf rdf:resource="https://purl.org/LRO/lro.owl#Item"/>
+        <rdfs:subClassOf rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Item"/>
         <terms:modified>2016-04-21 (New)</terms:modified>
         <rdfs:label>Item</rdfs:label>
         <skos:definition>Single example of an Instance.</skos:definition>
@@ -90059,7 +90056,7 @@ LRO - Library Reference Ontology Page
 
     <owl:Class rdf:about="http://id.loc.gov/ontologies/bibframe/Text">
         <rdfs:subClassOf rdf:resource="http://id.loc.gov/ontologies/bibframe/Work"/>
-        <rdfs:subClassOf rdf:resource="https://purl.org/LRO/lro.owl#Expressao"/>
+        <rdfs:subClassOf rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Expressao"/>
         <terms:modified>2016-04-21 (New)</terms:modified>
         <rdfs:label>Text</rdfs:label>
         <skos:definition>Resource intended to be perceived visually and understood through the use of language in written or spoken form.</skos:definition>
@@ -90199,7 +90196,7 @@ LRO - Library Reference Ontology Page
     <!-- http://id.loc.gov/ontologies/bibframe/Work -->
 
     <owl:Class rdf:about="http://id.loc.gov/ontologies/bibframe/Work">
-        <rdfs:subClassOf rdf:resource="https://purl.org/LRO/lro.owl#Obra"/>
+        <rdfs:subClassOf rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Obra"/>
         <terms:modified>2016-04-21 (New)</terms:modified>
         <rdfs:label>Work</rdfs:label>
         <skos:definition>Resource reflecting a conceptual essence of a cataloging resource.</skos:definition>
@@ -90268,7 +90265,7 @@ LRO - Library Reference Ontology Page
 
     <owl:Class rdf:about="http://iflastandards.info/ns/lrm/lrmer/E2">
         <rdfs:subClassOf rdf:resource="http://iflastandards.info/ns/lrm/lrmer/E1"/>
-        <rdfs:subClassOf rdf:resource="https://purl.org/LRO/lro.owl#Obra"/>
+        <rdfs:subClassOf rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Obra"/>
         <owl:disjointWith rdf:resource="http://iflastandards.info/ns/lrm/lrmer/E3"/>
         <owl:disjointWith rdf:resource="http://iflastandards.info/ns/lrm/lrmer/E4"/>
         <owl:disjointWith rdf:resource="http://iflastandards.info/ns/lrm/lrmer/E5"/>
@@ -90289,7 +90286,7 @@ LRO - Library Reference Ontology Page
 
     <owl:Class rdf:about="http://iflastandards.info/ns/lrm/lrmer/E3">
         <rdfs:subClassOf rdf:resource="http://iflastandards.info/ns/lrm/lrmer/E1"/>
-        <rdfs:subClassOf rdf:resource="https://purl.org/LRO/lro.owl#Expressao"/>
+        <rdfs:subClassOf rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Expressao"/>
         <owl:disjointWith rdf:resource="http://iflastandards.info/ns/lrm/lrmer/E4"/>
         <owl:disjointWith rdf:resource="http://iflastandards.info/ns/lrm/lrmer/E5"/>
         <owl:disjointWith rdf:resource="http://iflastandards.info/ns/lrm/lrmer/E6"/>
@@ -90309,7 +90306,7 @@ LRO - Library Reference Ontology Page
 
     <owl:Class rdf:about="http://iflastandards.info/ns/lrm/lrmer/E4">
         <rdfs:subClassOf rdf:resource="http://iflastandards.info/ns/lrm/lrmer/E1"/>
-        <rdfs:subClassOf rdf:resource="https://purl.org/LRO/lro.owl#Manifestacao"/>
+        <rdfs:subClassOf rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Manifestacao"/>
         <owl:disjointWith rdf:resource="http://iflastandards.info/ns/lrm/lrmer/E5"/>
         <owl:disjointWith rdf:resource="http://iflastandards.info/ns/lrm/lrmer/E6"/>
         <owl:disjointWith rdf:resource="http://iflastandards.info/ns/lrm/lrmer/E9"/>
@@ -90328,7 +90325,7 @@ LRO - Library Reference Ontology Page
 
     <owl:Class rdf:about="http://iflastandards.info/ns/lrm/lrmer/E5">
         <rdfs:subClassOf rdf:resource="http://iflastandards.info/ns/lrm/lrmer/E1"/>
-        <rdfs:subClassOf rdf:resource="https://purl.org/LRO/lro.owl#Item"/>
+        <rdfs:subClassOf rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Item"/>
         <owl:disjointWith rdf:resource="http://iflastandards.info/ns/lrm/lrmer/E6"/>
         <owl:disjointWith rdf:resource="http://iflastandards.info/ns/lrm/lrmer/E9"/>
         <regap:lexicalAlias rdf:resource="http://iflastandards.info/ns/lrm/lrmer/Item"/>
@@ -90408,7 +90405,7 @@ LRO - Library Reference Ontology Page
 
     <owl:Class rdf:about="http://rdaregistry.info/Elements/c/C10001">
         <rdfs:subClassOf rdf:resource="http://rdaregistry.info/Elements/c/C10013"/>
-        <rdfs:subClassOf rdf:resource="https://purl.org/LRO/lro.owl#Obra"/>
+        <rdfs:subClassOf rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Obra"/>
         <rdakit:instructionNumber>5.1.2</rdakit:instructionNumber>
         <rdakit:toolkitDefinition xml:lang="en">A distinct intellectual or artistic creation, that is, the intellectual or artistic content.</rdakit:toolkitDefinition>
         <rdakit:toolkitDefinition xml:lang="lv">Atšķirīgs intelektuālas vai mākslinieciskas jaunrades veikums (FRBR)</rdakit:toolkitDefinition>
@@ -90570,7 +90567,7 @@ LRO - Library Reference Ontology Page
 
     <owl:Class rdf:about="http://rdaregistry.info/Elements/c/C10003">
         <rdfs:subClassOf rdf:resource="http://rdaregistry.info/Elements/c/C10013"/>
-        <rdfs:subClassOf rdf:resource="https://purl.org/LRO/lro.owl#Item"/>
+        <rdfs:subClassOf rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Item"/>
         <rdakit:instructionNumber>1.1.5</rdakit:instructionNumber>
         <rdakit:toolkitDefinition xml:lang="en">A single exemplar or instance of a manifestation.</rdakit:toolkitDefinition>
         <rdakit:toolkitDefinition xml:lang="nl">Een enkel exemplaar of instantie van een manifestatie.</rdakit:toolkitDefinition>
@@ -90805,7 +90802,7 @@ LRO - Library Reference Ontology Page
 
     <owl:Class rdf:about="http://rdaregistry.info/Elements/c/C10006">
         <rdfs:subClassOf rdf:resource="http://rdaregistry.info/Elements/c/C10013"/>
-        <rdfs:subClassOf rdf:resource="https://purl.org/LRO/lro.owl#Expressao"/>
+        <rdfs:subClassOf rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Expressao"/>
         <rdakit:instructionNumber>5.1.2</rdakit:instructionNumber>
         <rdakit:toolkitDefinition xml:lang="en">An intellectual or artistic realization of a work in the form of alpha-numeric, musical or choreographic notation, sound, image, object, movement, etc., or any combination of such forms.</rdakit:toolkitDefinition>
         <rdakit:toolkitDefinition xml:lang="lv">Darba intelektuāla vai mākslinieciska īstenošana burtu - ciparu, mūzikas vai horeogrāfijas, skaņu un attēlu, priekšmetu, kustību, utt., pierakstu veidā vai citās šo veidu kombinācijās. (FRBR)</rdakit:toolkitDefinition>
@@ -90884,7 +90881,7 @@ LRO - Library Reference Ontology Page
 
     <owl:Class rdf:about="http://rdaregistry.info/Elements/c/C10007">
         <rdfs:subClassOf rdf:resource="http://rdaregistry.info/Elements/c/C10013"/>
-        <rdfs:subClassOf rdf:resource="https://purl.org/LRO/lro.owl#Manifestacao"/>
+        <rdfs:subClassOf rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Manifestacao"/>
         <rdakit:instructionNumber>1.1.5</rdakit:instructionNumber>
         <rdakit:toolkitDefinition xml:lang="en">A physical embodiment of an expression of a work.</rdakit:toolkitDefinition>
         <rdakit:toolkitDefinition xml:lang="lv">Darba izteiksmes fiziskais iemiesojums.(FRBR)</rdakit:toolkitDefinition>
@@ -91452,9 +91449,9 @@ LRO - Library Reference Ontology Page
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#Audiolivro -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Audiolivro -->
 
-    <owl:Class rdf:about="https://purl.org/LRO/lro.owl#Audiolivro">
+    <owl:Class rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Audiolivro">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -91463,26 +91460,26 @@ LRO - Library Reference Ontology Page
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://purl.org/LRO/lro.owl#Expressao"/>
+        <rdfs:subClassOf rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Expressao"/>
     </owl:Class>
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#ConteudoAbstrato -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#ConteudoAbstrato -->
 
-    <owl:Class rdf:about="https://purl.org/LRO/lro.owl#ConteudoAbstrato"/>
+    <owl:Class rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#ConteudoAbstrato"/>
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#ConteudoConcreto -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#ConteudoConcreto -->
 
-    <owl:Class rdf:about="https://purl.org/LRO/lro.owl#ConteudoConcreto"/>
+    <owl:Class rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#ConteudoConcreto"/>
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#Expressao -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Expressao -->
 
-    <owl:Class rdf:about="https://purl.org/LRO/lro.owl#Expressao">
+    <owl:Class rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Expressao">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
@@ -91494,14 +91491,14 @@ LRO - Library Reference Ontology Page
                 </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://purl.org/LRO/lro.owl#Obra"/>
+        <rdfs:subClassOf rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Obra"/>
     </owl:Class>
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#Item -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Item -->
 
-    <owl:Class rdf:about="https://purl.org/LRO/lro.owl#Item">
+    <owl:Class rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Item">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
@@ -91511,14 +91508,14 @@ LRO - Library Reference Ontology Page
                 </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://purl.org/LRO/lro.owl#Manifestacao"/>
+        <rdfs:subClassOf rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Manifestacao"/>
     </owl:Class>
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#Manifestacao -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Manifestacao -->
 
-    <owl:Class rdf:about="https://purl.org/LRO/lro.owl#Manifestacao">
+    <owl:Class rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Manifestacao">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
@@ -91528,21 +91525,21 @@ LRO - Library Reference Ontology Page
                 </owl:unionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://purl.org/LRO/lro.owl#ConteudoConcreto"/>
-        <rdfs:subClassOf rdf:resource="https://purl.org/LRO/lro.owl#Expressao"/>
+        <rdfs:subClassOf rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#ConteudoConcreto"/>
+        <rdfs:subClassOf rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Expressao"/>
     </owl:Class>
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#NomenTitle -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#NomenTitle -->
 
-    <owl:Class rdf:about="https://purl.org/LRO/lro.owl#NomenTitle"/>
+    <owl:Class rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#NomenTitle"/>
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#Obra -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Obra -->
 
-    <owl:Class rdf:about="https://purl.org/LRO/lro.owl#Obra">
+    <owl:Class rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Obra">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
@@ -91554,25 +91551,25 @@ LRO - Library Reference Ontology Page
         </owl:equivalentClass>
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://purl.org/LRO/lro.owl#temTítulo"/>
+                <owl:onProperty rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#temTítulo"/>
                 <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
-                <owl:onClass rdf:resource="https://purl.org/LRO/lro.owl#NomenTitle"/>
+                <owl:onClass rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#NomenTitle"/>
             </owl:Restriction>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="https://purl.org/LRO/lro.owl#ConteudoAbstrato"/>
+        <rdfs:subClassOf rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#ConteudoAbstrato"/>
     </owl:Class>
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#ReproducaoDigital -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#ReproducaoDigital -->
 
-    <owl:Class rdf:about="https://purl.org/LRO/lro.owl#ReproducaoDigital"/>
+    <owl:Class rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#ReproducaoDigital"/>
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#SuperObra -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#SuperObra -->
 
-    <owl:Class rdf:about="https://purl.org/LRO/lro.owl#SuperObra"/>
+    <owl:Class rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#SuperObra"/>
     
 
 
@@ -91636,7 +91633,7 @@ LRO - Library Reference Ontology Page
     <!-- http://www.xpto.com/biblioteca1.owl#ID18-CompendiumArtisDemonstrativa -->
 
     <owl:NamedIndividual rdf:about="http://www.xpto.com/biblioteca1.owl#ID18-CompendiumArtisDemonstrativa">
-        <reproducaoDigital rdf:resource="https://purl.org/LRO/lro.owl#ReprodDigital1"/>
+        <reproducaoDigital rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#ReprodDigital1"/>
     </owl:NamedIndividual>
     
 
@@ -91730,7 +91727,7 @@ LRO - Library Reference Ontology Page
 
     <owl:NamedIndividual rdf:about="http://www.xpto.com/biblioteca3.owl#ID5-ArsGeneralisUltima">
         <parteDe rdf:resource="http://www.xpto.com/biblioteca3.owl#ID28-AGU.AB"/>
-        <temTítulo rdf:resource="https://purl.org/LRO/lro.owl#ID50-ArsMagnaGeneralisUltima"/>
+        <temTítulo rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#ID50-ArsMagnaGeneralisUltima"/>
     </owl:NamedIndividual>
     
 
@@ -91744,69 +91741,69 @@ LRO - Library Reference Ontology Page
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#ID12A-AGU -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#ID12A-AGU -->
 
-    <owl:NamedIndividual rdf:about="https://purl.org/LRO/lro.owl#ID12A-AGU">
-        <rdf:type rdf:resource="https://purl.org/LRO/lro.owl#Manifestacao"/>
+    <owl:NamedIndividual rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#ID12A-AGU">
+        <rdf:type rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Manifestacao"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#ID24A-AGU -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#ID24A-AGU -->
 
-    <owl:NamedIndividual rdf:about="https://purl.org/LRO/lro.owl#ID24A-AGU">
-        <rdf:type rdf:resource="https://purl.org/LRO/lro.owl#Manifestacao"/>
+    <owl:NamedIndividual rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#ID24A-AGU">
+        <rdf:type rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Manifestacao"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#ID50-ArsMagnaGeneralisUltima -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#ID50-ArsMagnaGeneralisUltima -->
 
-    <owl:NamedIndividual rdf:about="https://purl.org/LRO/lro.owl#ID50-ArsMagnaGeneralisUltima">
-        <rdf:type rdf:resource="https://purl.org/LRO/lro.owl#NomenTitle"/>
-        <abbreviatedTitle rdf:resource="https://purl.org/LRO/lro.owl#ID60-ArsUltima"/>
+    <owl:NamedIndividual rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#ID50-ArsMagnaGeneralisUltima">
+        <rdf:type rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#NomenTitle"/>
+        <abbreviatedTitle rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#ID60-ArsUltima"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#ID60-ArsUltima -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#ID60-ArsUltima -->
 
-    <owl:NamedIndividual rdf:about="https://purl.org/LRO/lro.owl#ID60-ArsUltima">
-        <rdf:type rdf:resource="https://purl.org/LRO/lro.owl#NomenTitle"/>
+    <owl:NamedIndividual rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#ID60-ArsUltima">
+        <rdf:type rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#NomenTitle"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#LibroContempDios -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#LibroContempDios -->
 
-    <owl:NamedIndividual rdf:about="https://purl.org/LRO/lro.owl#LibroContempDios">
-        <rdf:type rdf:resource="https://purl.org/LRO/lro.owl#Manifestacao"/>
+    <owl:NamedIndividual rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#LibroContempDios">
+        <rdf:type rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Manifestacao"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#LibroContempVol.1 -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#LibroContempVol.1 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.org/LRO/lro.owl#LibroContempVol.1">
-        <rdf:type rdf:resource="https://purl.org/LRO/lro.owl#Manifestacao"/>
-        <parteDe rdf:resource="https://purl.org/LRO/lro.owl#LibroContempDios"/>
+    <owl:NamedIndividual rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#LibroContempVol.1">
+        <rdf:type rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Manifestacao"/>
+        <parteDe rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#LibroContempDios"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#LibroContempVol.1-Tomo1 -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#LibroContempVol.1-Tomo1 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.org/LRO/lro.owl#LibroContempVol.1-Tomo1">
-        <rdf:type rdf:resource="https://purl.org/LRO/lro.owl#Manifestacao"/>
-        <parteDe rdf:resource="https://purl.org/LRO/lro.owl#LibroContempVol.1"/>
+    <owl:NamedIndividual rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#LibroContempVol.1-Tomo1">
+        <rdf:type rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Manifestacao"/>
+        <parteDe rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#LibroContempVol.1"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#ReprodDigital1 -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#ReprodDigital1 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.org/LRO/lro.owl#ReprodDigital1">
-        <rdf:type rdf:resource="https://purl.org/LRO/lro.owl#ReproducaoDigital"/>
+    <owl:NamedIndividual rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#ReprodDigital1">
+        <rdf:type rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#ReproducaoDigital"/>
         <manifestacaoAnalogica rdf:resource="http://www.xpto.com/biblioteca1.owl#ID14-CompendiumArtisDemonstrativa"/>
         <manifestacaoDigital rdf:resource="http://www.xpto.com/biblioteca1.owl#ID27-Digitalizacao-CAD-mss-Alcobaca"/>
         <dataDigitalizacao rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2017</dataDigitalizacao>
@@ -91815,10 +91812,10 @@ LRO - Library Reference Ontology Page
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#ReprodDigital2 -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#ReprodDigital2 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.org/LRO/lro.owl#ReprodDigital2">
-        <rdf:type rdf:resource="https://purl.org/LRO/lro.owl#ReproducaoDigital"/>
+    <owl:NamedIndividual rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#ReprodDigital2">
+        <rdf:type rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#ReproducaoDigital"/>
         <manifestacaoAnalogica rdf:resource="http://www.xpto.com/biblioteca2.owl#ID14-CompendiumArtisDemonstrativa"/>
         <manifestacaoDigital rdf:resource="http://www.xpto.com/biblioteca2.owl#ID27-Digitalizacao-CAD-mss-Alcobaca"/>
         <dataDigitalizacao rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2008</dataDigitalizacao>
@@ -91827,47 +91824,47 @@ LRO - Library Reference Ontology Page
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#TesteAudiolivro1 -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#TesteAudiolivro1 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.org/LRO/lro.owl#TesteAudiolivro1">
+    <owl:NamedIndividual rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#TesteAudiolivro1">
         <TesteAudiobook rdf:resource="http://www.xpto.com/biblioteca1.owl#Francês"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#TesteTrad1 -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#TesteTrad1 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.org/LRO/lro.owl#TesteTrad1"/>
+    <owl:NamedIndividual rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#TesteTrad1"/>
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#TesteTrad2 -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#TesteTrad2 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.org/LRO/lro.owl#TesteTrad2"/>
+    <owl:NamedIndividual rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#TesteTrad2"/>
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#teste-prop-errada -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#teste-prop-errada -->
 
-    <owl:NamedIndividual rdf:about="https://purl.org/LRO/lro.owl#teste-prop-errada">
+    <owl:NamedIndividual rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#teste-prop-errada">
         <rdf:type rdf:resource="http://id.loc.gov/ontologies/bibframe/Work"/>
         <bf:language rdf:resource="http://www.xpto.com/biblioteca1.owl#Francês"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#testeUniaoID3 -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#testeUniaoID3 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.org/LRO/lro.owl#testeUniaoID3">
-        <rdf:type rdf:resource="https://purl.org/LRO/lro.owl#Obra"/>
+    <owl:NamedIndividual rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#testeUniaoID3">
+        <rdf:type rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#Obra"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://purl.org/LRO/lro.owl#vcoID5 -->
+    <!-- https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#vcoID5 -->
 
-    <owl:NamedIndividual rdf:about="https://purl.org/LRO/lro.owl#vcoID5">
-        <temTítulo rdf:resource="https://purl.org/LRO/lro.owl#ID50-ArsMagnaGeneralisUltima"/>
+    <owl:NamedIndividual rdf:about="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#vcoID5">
+        <temTítulo rdf:resource="https://www.montanae.com/Library-reference-ontology/LRO/lro.rdf#ID50-ArsMagnaGeneralisUltima"/>
         <bf:mainTitle>Ars Generalis Ultima</bf:mainTitle>
     </owl:NamedIndividual>
     
@@ -104928,5 +104925,4 @@ IFLA LRM was designed to be used in linked data environments and to support and 
 
 
 <!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
-
 
